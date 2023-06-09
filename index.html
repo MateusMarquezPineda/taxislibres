@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxis Libres</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="imagenes/icontax.ico">
+  <script src="https://kit.fontawesome.com/d49b58502b.js" crossorigin="anonymous"></script> 
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><!-- Si tienes un archivo CSS separado, enlázalo aquí -->
+</head>
+<body>
+  <section>
+   
+    <header> 
+      <a href="imagenes/logo.png" ><img src="imagenes/logo.png" class="logo"></a>
+      <img class="hamburger" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEtjZKAxYKSx+QyjFhAMYfoH0eE7DP8JOguPAlsV1HjF8AHNLaDE9dj00j8OaO4DmscBzS2geRANfQtoHgc0t2Dox8GoD9BDgOalKQDjoRIZob+ECAAAAABJRU5ErkJggg=="/>
+      <img class="cierre" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANdJREFUSEvtlOEJgzAQhb9QB0nBjqHoJl2lk7SbKJ2jUAepWCIKNni5pCCloH+9vO/uvUsMG39mY312gOrwby26PziXOTepzeaJPfRUoRpxAidu4DpAV+YcfYgTz/rxvwUuEkQETN01BqwPmcWBCmiLnFqaMpjBGiRF3EHVkH2IgS6m83kiFeAKl5DpYNCWpV3RABfo1DlS8Gs5qADfc7c1a8F/HfKi89GW0HYlTRDalhSIetGkPf8IfqAuTrRJE7jimKcie2El8ah7oD6XSoG6RTvg/y16A2X8ahlw0UcIAAAAAElFTkSuQmCC"/>
+      
+      <nav class="menu-navegacion">
+        <a href="inicio">Inicio</a>
+        <a href="quiensomos">Quiénes Somos</a>
+        <a href="contacto">Contacto</a>
+       
+       <button class="switch" id="switch">
+          <span><i class="fa-solid fa-sun" style="color: #ffff00;"></i> </span>   
+          <span><i class="fa-solid fa-moon"></i></span>
+        </button>
+      </nav>
+      <!--    <nav class="dropdown-navegacion">
+        <a href="inicio">Inicio</a>
+        <a href="quiensomos">Quiénes Somos</a>
+        <a href="contacto">Contacto</a>
+       
+        <button class="switch" id="switch">
+          <span><i class="fa-solid fa-sun" style="color: #ffff00;"></i> </span>   
+          <span><i class="fa-solid fa-moon"></i></span>
+        </button>
+      </nav> -->
+      
+    </header>
+    <div class="circle">   </div>
+    <div class="content">
+      <div class="textBox">
+        <h1>Taxis Libres🚕<br><span>Nuestra App</span></h1>
+        <h3>Disfruta de una experiencia segura completa a la hora de viajar en taxi.</h3>
+        <a href="#"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALVJREFUSEvtlOENglAMhD820U1wEnUS2EQ30U1wE80lkIChrycJURL7u72vvXd5FStXtbI+PwN4BpemC6YNvfAfkGZpexa1QJPeNW24Auf3mVKKLsDJhNyBw1xvFtMO2CWQUFxzGUDitwLkAexLC2QAzUYQictzXRCWA9BwDehNxnbJ86K4Y9F4MyXr2EMs8U8B6hdE1iiSVrkWWWJLYrpYeBicuyD6d1zYRPMrAHdTq2/7j/wCRpUZGdhenb4AAAAASUVORK5CYII="/> Descárgala ahora</a>
+      </div>
+      <div class="imgBox">
+        <img src="imagenes/app.png" class="Taxi">
+      </div>
+    </div>
+    
+    <ul class="thumb">
+      <li><img src="imagenes/app.png" onclick="imgSlider('imagenes/app.png')"></li>
+      <li><img src="imagenes/foto.png" onclick="imgSlider('imagenes/foto.png')"></li>
+      <li><img src="imagenes/img.png" onclick="imgSlider('imagenes/img.png')"></li>
+    </ul>
+    <ul class="sci">
+    <i class='bx bxl-facebook-circle bx-flashing' ></i>
+    <i class='bx bxl-instagram bx-flashing' ></i>
+     <i class='bx bxl-tiktok bx-flashing'></i>
+    </ul>
+  </section>
+
+    <section class="quien-somos" id="quiensomos">
+      <div class="slide">
+      <img src="imagenes/fondo.png"  alt="">    
+    </div>
+    <div class="slide">
+      <img src="imagenes/fondo1.png" alt=""> 
+       </div>
+       <div class="slide">
+        <img src="imagenes/fondo3.png" alt=""> 
+         </div>
+    </section> 
+  
+    <footer>
+
+      <div class="container_footer">
+          <div class="box_footer">
+              <div class="logo">
+                  <img src="imagenes/logo.png" alt="">
+              </div>
+              <div class="terms">
+                  <p>Taxis Libres🚕</p>
+              </div>
+          </div>
+          <div class="box_footer">
+            <h2>Soluciones</h2>
+              <a href="#">App</a>
+              <a href="#">Atencón al cliente</a>
+              <a href="#">Reclamaciónes</a>
+      
+          </div>
+         
+          <div class="box_footer">
+              <h2>Redes Sociales</h2>
+                <i class='bx bxl-facebook-circle bx-flashing'></i>
+                <i class='bx bxl-instagram bx-flashing' ></i>
+                <i class='bx bxl-tiktok bx-flashing'></i>
+        
+          </div>
+
+      </div>
+
+      <div class="box_copyright">
+          <hr>
+          <p>Todos los derechos reservados © 2023 <b>Mateus Marquez</b></p>
+      </div>
+  </footer>
+
+
+
+
+<script src="scripts.js"></script> 
+</body>
+</html>
